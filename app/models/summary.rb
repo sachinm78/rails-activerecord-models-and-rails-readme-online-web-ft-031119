@@ -1,4 +1,4 @@
-class Post < ActiveRecord::Base
+class Summary < ActiveRecord::Base
   
   def post_summary
     self.title + " - " + self.description
